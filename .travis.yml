@@ -1,0 +1,19 @@
+addons:
+  apt:
+    packages:
+      - python-pygments
+
+install:
+  - rm -rf public || exit 0
+
+script:
+  - cd src
+  - ../binaries/hugo --theme=nofancy
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: public
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master

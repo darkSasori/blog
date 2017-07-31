@@ -1,0 +1,11 @@
+baseURL = "https://site.lineufelipe.com/"
+languageCode = "en-us"
+title = "Lineu Felipe"
+theme = "nofancy"
+
+[author]
+    name = "Lineu Felipe"
+    github = "darkSasori"
+    linkedin = "lineufelipe"
+    twitter = "lineufelipe"
+    facebook = "lineufelipe"
