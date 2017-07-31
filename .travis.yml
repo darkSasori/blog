@@ -7,8 +7,7 @@ install:
   - rm -rf public || exit 0
 
 script:
-  - cd src
-  - ../binaries/hugo --theme=nofancy
+  - binaries/hugo --theme=nofancy
 
 deploy:
   provider: pages
