@@ -2,6 +2,7 @@ baseURL = "https://site.lineufelipe.com/"
 languageCode = "en-us"
 title = "Lineu Felipe"
 theme = "nofancy"
+disqusShortname = "blog-lineufelipe"
 
 [author]
     name = "Lineu Felipe"
