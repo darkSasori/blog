@@ -1,4 +1,4 @@
-baseURL = "https://site.lineufelipe.com/"
+baseURL = "http://site.lineufelipe.com/"
 languageCode = "en-us"
 title = "Lineu Felipe"
 theme = "nofancy"
