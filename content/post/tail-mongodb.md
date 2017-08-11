@@ -4,9 +4,9 @@ date: 2017-08-10:22:20-03:00
 draft: true
 ---
 
-A opção de cursos tailable do mongodb, funciona parecido com o ```tail -f``` do linux, porem não
+A opção de cursos tailable do mongodb, funciona parecido com o ```tail -f``` do linux, porém não
 podemos usar ela em qualquer coleção, a coleção precisa ter a opção ```capped: true```, o que
-significa que ela tera um tamanho maximo fixo, removendo documentos antigos para inserir novos.
+significa que ela terá um tamanho máximo fixo, removendo documentos antigos para inserir novos.
 
 ![alt text](http://content.tradyouth.org/uploads/2015/10/talk-is-cheap.jpg "Talk Is Cheat")
 
@@ -23,7 +23,7 @@ opção ```max``` que seta a quantidade máxima de documentos na coleção.
 ```
 cur = db.tail.find({}).addOption(DBQuery.Option.tailable).addOption(DBQuery.Option.awaitData)
 ```
-Note que usei a função ```find``` normalmente, porém, adicionei duas opcoes ao cursor
+Note que usei a função ```find``` normalmente, porém, adicionei duas opções ao cursor
 
 * DBQuery.Option.tailable: quarante que o cursor não ira fechar depois que receber os documentos;
 * DBQuery.Option.awaitData: informa ao cursor para esperar o novo documento e ficar parado.
@@ -39,8 +39,7 @@ Quando o servidor esta em um cluster ou é iniciado com --master ele utiliza dua
 
 ## Qual a utilidade?
 
+* Log temporário
 * Atualizar outras coleções
 * Disparar requisições para outros sistemas
 * Publisher/Subscriber
-    * + Histórico das mensagens
-    * - Consumidor precisa manter o histórico da ultima mensagem consumida
