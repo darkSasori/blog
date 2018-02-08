@@ -9,6 +9,7 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentOptions = "linenos=table"
+googleAnalytics = "UA-113793800-1"
 
 [Params]
     dateFormat = "2 January, 2006"
