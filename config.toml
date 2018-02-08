@@ -1,12 +1,40 @@
 baseURL = "http://site.lineufelipe.com/"
-languageCode = "en-us"
+languageCode = "pt-br"
 title = "Lineu Felipe"
-theme = "nofancy"
+theme = "beautifulhugo"
 disqusShortname = "blog-lineufelipe"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentOptions = "linenos=table"
 
-[author]
+[Params]
+    dateFormat = "2 January, 2006"
+    commit = false
+    comments = true
+    logo = "img/logo.jpg"
+
+[Author]
     name = "Lineu Felipe"
     github = "darkSasori"
     linkedin = "lineufelipe"
     twitter = "lineufelipe"
     facebook = "lineufelipe"
+    telegram = "lineufelipe"
+
+[[menu.main]]
+    name = "Posts"
+    url = "post"
+    weight = 1
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3

@@ -7,7 +7,7 @@ install:
   - rm -rf public || exit 0
 
 script:
-  - binaries/hugo --theme=nofancy
+  - binaries/hugo --forceSyncStatic
   - cp CNAME public/CNAME
 
 deploy:
