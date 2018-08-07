@@ -7,7 +7,7 @@ install:
   - rm -rf public || exit 0
 
 script:
-  - binaries/hugo --forceSyncStatic
+  - binaries/hugo --forceSyncStatic -b //blog.lineufelipe.com/
   - cp CNAME public/CNAME
 
 deploy:
