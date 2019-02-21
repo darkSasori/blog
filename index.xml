@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lineu Felipe</title>
+    <link>//blog.lineufelipe.com/</link>
+    <description>Recent content on Lineu Felipe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 10 Aug 2018 13:52:44 -0300</lastBuildDate>
+    
+	<atom:link href="//blog.lineufelipe.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mongodb Watch</title>
+      <link>//blog.lineufelipe.com/post/mongodb-watch/</link>
+      <pubDate>Fri, 10 Aug 2018 13:52:44 -0300</pubDate>
+      
+      <guid>//blog.lineufelipe.com/post/mongodb-watch/</guid>
+      <description>&lt;p&gt;Após 1 ano desde o minha publicação sobre a função &lt;a href=&#34;//blog.lineufelipe.com/post/tail-mongodb/&#34;&gt;tail do mongodb&lt;/a&gt;, trago hoje como assunto a função watch.
+A principal diferença entre estas duas funções é que o &lt;code&gt;tail&lt;/code&gt; funciona somente para novos registro na &lt;code&gt;collection&lt;/code&gt;
+e necessita que ela seja &lt;code&gt;capped&lt;/code&gt;(tamanho maximo fixo). Já a função &lt;code&gt;watch&lt;/code&gt; não depende de nenhuma configuração para a
+&lt;code&gt;collection&lt;/code&gt; e funciona com operações como &lt;code&gt;inserts&lt;/code&gt;, &lt;code&gt;update&lt;/code&gt; e &lt;code&gt;delete&lt;/code&gt;. No entanto o servidor tem que ser uma replicaset.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tail Mongodb</title>
+      <link>//blog.lineufelipe.com/post/tail-mongodb/</link>
+      <pubDate>Thu, 10 Aug 2017 23:22:20 -0300</pubDate>
+      
+      <guid>//blog.lineufelipe.com/post/tail-mongodb/</guid>
+      <description>&lt;p&gt;A opção de cursos tailable do mongodb, funciona parecido com o &lt;code&gt;tail -f&lt;/code&gt; do linux, porém não
+podemos usar ela em qualquer coleção, a coleção precisa ter a opção &lt;code&gt;capped: true&lt;/code&gt;, o que
+significa que ela terá um tamanho máximo fixo, removendo documentos antigos para inserir novos.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sobre</title>
+      <link>//blog.lineufelipe.com/page/about/</link>
+      <pubDate>Thu, 10 Aug 2017 22:22:05 -0300</pubDate>
+      
+      <guid>//blog.lineufelipe.com/page/about/</guid>
+      <description> Interesses  MongoDB Python Golang Docker C/C++/Qt Arduino  </description>
+    </item>
+    
+  </channel>
+</rss>

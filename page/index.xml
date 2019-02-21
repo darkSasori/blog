@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Lineu Felipe</title>
+    <link>//blog.lineufelipe.com/page/</link>
+    <description>Recent content in Pages on Lineu Felipe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Thu, 10 Aug 2017 22:22:05 -0300</lastBuildDate>
+    
+	<atom:link href="//blog.lineufelipe.com/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sobre</title>
+      <link>//blog.lineufelipe.com/page/about/</link>
+      <pubDate>Thu, 10 Aug 2017 22:22:05 -0300</pubDate>
+      
+      <guid>//blog.lineufelipe.com/page/about/</guid>
+      <description> Interesses  MongoDB Python Golang Docker C/C++/Qt Arduino  </description>
+    </item>
+    
+  </channel>
+</rss>
